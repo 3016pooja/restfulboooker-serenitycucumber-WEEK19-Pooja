@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Create booking with data driven","Data driven test for adding multiple booking to the application","SUCCESS","2023-01-11T20:40:54.794Z[Europe/London]","0.0","167.92"
+"Tag test","Correct HTTP method is used to access resources","SUCCESS","2023-01-11T20:40:57.535Z[Europe/London]","0.0","0.56"
+"Tag test","Incorrect HTTP method used to access resources and validate response 405","SUCCESS","2023-01-11T20:40:58.099Z[Europe/London]","0.0","0.53"
+"Tag test","This test will provide an error code of 400 when user tries to access an invalid resource","SUCCESS","2023-01-11T20:40:58.631Z[Europe/London]","0.0","0.54"

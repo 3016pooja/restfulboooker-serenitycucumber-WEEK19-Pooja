@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Testing different request on the restful booker app","As a user I create booking","SUCCESS","2023-01-11T20:41:03.429Z[Europe/London]","0.0","0.57"
+"Testing different request on the restful booker app","As a user I check that booking is created","SUCCESS","2023-01-11T20:41:04.046Z[Europe/London]","0.0","0.64"
+"Testing different request on the restful booker app","As a user I update booking","SUCCESS","2023-01-11T20:41:04.744Z[Europe/London]","0.0","1.13"
+"Testing different request on the restful booker app","As a user I delete booking","SUCCESS","2023-01-11T20:41:05.943Z[Europe/London]","0.0","1.11"

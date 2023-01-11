@@ -1,0 +1,2723 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title>Data driven test for adding multiple booking to the application</title>
+    <link rel="shortcut icon" href="favicon.ico">
+
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script><!-- ImgPreview -->
+<script src="scripts/imgpreview.full.jquery.js" type="text/javascript"></script>
+</head>
+
+<body class="results-page">
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+        <span class="breadcrumbs">
+            <a href="index.html" class="breadcrumbs">Home</a>
+
+            > Data driven test for adding multiple booking to the application
+        </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-01-2023 20:40</span>
+    <br style="clear:left"/>
+</div>
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Create Booking With Data Driven</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-3x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                    <span class="success-color">
+                                    Data Driven Test For Adding Multiple Booking To The Application
+                                        <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario">Creating new booking with firstName: &lt;FIRSTNAME&gt;, lastName: &lt;LASTNAME&gt;, totalPrice: 0, depositPaid: false, checkIn: &lt;CHECKIN&gt;, checkOut: &lt;CHECKOUT&gt; and additionalNeeds: &lt;ADDITIONALNEEDS&gt;</div>
+
+    </div>
+
+    <div id="beforetable"></div>
+
+
+        <h3 class="story-header">Examples:</h3>
+        <div class="example-table">
+            <table>
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>FIRSTNAME</th>
+                        <th>LASTNAME</th>
+                        <th>TOTLEPRICE</th>
+                        <th>DEPOSITPAID</th>
+                        <th>CHECKIN</th>
+                        <th>CHECKOUT</th>
+                        <th>ADDITIONALNEEDS</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#0">1</a></td>
+                            <td class="test-SUCCESS"><a href="#0">Valeda</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">Suthworth</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">92</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">3/10/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">4/2/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#0">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#1">2</a></td>
+                            <td class="test-SUCCESS"><a href="#1">Guglielmo</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">Clinton</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">89</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">10/4/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">1/8/2023</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#1">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#2">3</a></td>
+                            <td class="test-SUCCESS"><a href="#2">Hendrika</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">McKeney</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">80</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">2/4/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">2/5/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#2">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#3">4</a></td>
+                            <td class="test-SUCCESS"><a href="#3">Shelia</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">McGreary</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">77</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">8/5/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">1/30/2023</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#3">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#4">5</a></td>
+                            <td class="test-SUCCESS"><a href="#4">Sibelle</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">Abbotson</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">78</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">1/21/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">12/9/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#4">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#5">6</a></td>
+                            <td class="test-SUCCESS"><a href="#5">Thomas</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">Dwelley</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">93</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">4/11/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">4/12/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#5">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#6">7</a></td>
+                            <td class="test-SUCCESS"><a href="#6">Cazzie</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">Frudd</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">73</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">11/8/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">12/19/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#6">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#7">8</a></td>
+                            <td class="test-SUCCESS"><a href="#7">Riccardo</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">Jeggo</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">69</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">1/24/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">10/22/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#7">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#8">9</a></td>
+                            <td class="test-SUCCESS"><a href="#8">Lorelei</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">Dudmesh</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">72</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">6/23/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">8/18/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#8">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#9">10</a></td>
+                            <td class="test-SUCCESS"><a href="#9">Salim</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">Lissaman</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">81</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">9/13/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">1/10/2023</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#9">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#10">11</a></td>
+                            <td class="test-SUCCESS"><a href="#10">Otho</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">Hewes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">96</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">6/28/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">10/6/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#10">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#11">12</a></td>
+                            <td class="test-SUCCESS"><a href="#11">Miner</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">Acutt</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">91</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">8/31/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">6/4/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#11">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#12">13</a></td>
+                            <td class="test-SUCCESS"><a href="#12">Jaquelyn</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">Gambrell</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">67</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">4/26/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">9/1/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#12">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#13">14</a></td>
+                            <td class="test-SUCCESS"><a href="#13">Alonso</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">Bunny</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">85</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">10/21/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">4/27/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#13">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#14">15</a></td>
+                            <td class="test-SUCCESS"><a href="#14">Byrle</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">Driffill</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">52</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">yes</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">8/24/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">6/7/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#14">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#15">16</a></td>
+                            <td class="test-SUCCESS"><a href="#15">Carly</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">Tear</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">100</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">5/13/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">7/3/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#15">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#16">17</a></td>
+                            <td class="test-SUCCESS"><a href="#16">Pavel</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">Yannikov</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">93</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">9/1/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">3/21/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#16">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#17">18</a></td>
+                            <td class="test-SUCCESS"><a href="#17">Heywood</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">Archard</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">98</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">1/18/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">11/17/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#17">burger</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#18">19</a></td>
+                            <td class="test-SUCCESS"><a href="#18">Augusto</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">Knappen</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">97</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">5/22/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">8/2/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#18">pizza</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-SUCCESS"><a href="#19">20</a></td>
+                            <td class="test-SUCCESS"><a href="#19">Dalenna</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">Kersting</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">86</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">no</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">10/6/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">9/9/2022</a>
+                            </td>
+                            <td class="test-SUCCESS"><a href="#19">pizza</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    <div id="tablecontents">
+        <div>
+            <table class="step-table">
+                <tr class="step-titles">
+                    <th width="65">                        &nbsp;
+                    </th>
+
+                    <th width="%" class="step-description-wide-column greentext">
+                        Steps
+                    </th>
+                    <th width="100" class="greentext">Outcome</th>
+                    <th width="75" class="greentext">Duration</th>
+                </tr>
+                <tr class="step-table-separator">
+                    <td colspan="5"></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="0"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.41s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection0" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Valeda, lastName: Suthworth, totalPrice: 0, depositPaid: false, checkIn: 3/10/2022, checkOut: 4/2/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.41s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-3">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-3" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Valeda&quot;,<br>    &quot;lastname&quot;: &quot;Suthworth&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;3/10/2022&quot;,<br>        &quot;checkout&quot;: &quot;4/2/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 198<br>Etag: W/&quot;c6-n2T7BQghKLKwCFqLrd5I/QUwhEA&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 134,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Valeda&quot;,<br>        &quot;lastname&quot;: &quot;Suthworth&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-03-10&quot;,<br>            &quot;checkout&quot;: &quot;2022-04-02&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.41s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Guglielmo, lastName: Clinton, totalPrice: 0, depositPaid: false, checkIn: 10/4/2022, checkOut: 1/8/2023 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.41s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-6">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-6" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Guglielmo&quot;,<br>    &quot;lastname&quot;: &quot;Clinton&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;10/4/2022&quot;,<br>        &quot;checkout&quot;: &quot;1/8/2023&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 199<br>Etag: W/&quot;c7-OiCTxCDBKvfAj+9hzFe38RGvZv8&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 124,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Guglielmo&quot;,<br>        &quot;lastname&quot;: &quot;Clinton&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-10-04&quot;,<br>            &quot;checkout&quot;: &quot;2023-01-08&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="2"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection2 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection2')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.36s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection2" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Hendrika, lastName: McKeney, totalPrice: 0, depositPaid: false, checkIn: 2/4/2022, checkOut: 2/5/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.36s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-9">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-9" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Hendrika&quot;,<br>    &quot;lastname&quot;: &quot;McKeney&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;2/4/2022&quot;,<br>        &quot;checkout&quot;: &quot;2/5/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 198<br>Etag: W/&quot;c6-aBdWJRsq6mXyZz1ijiTWrNtrKHo&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 128,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Hendrika&quot;,<br>        &quot;lastname&quot;: &quot;McKeney&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-02-04&quot;,<br>            &quot;checkout&quot;: &quot;2022-02-05&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="3"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection3 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection3')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.41s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection3" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Shelia, lastName: McGreary, totalPrice: 0, depositPaid: false, checkIn: 8/5/2022, checkOut: 1/30/2023 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.41s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-12">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-12" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Shelia&quot;,<br>    &quot;lastname&quot;: &quot;McGreary&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;8/5/2022&quot;,<br>        &quot;checkout&quot;: &quot;1/30/2023&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 198<br>Etag: W/&quot;c6-dAH7cWr92lLAmf2ThPGsdPdMcyU&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 135,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Shelia&quot;,<br>        &quot;lastname&quot;: &quot;McGreary&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-08-05&quot;,<br>            &quot;checkout&quot;: &quot;2023-01-30&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="4"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection4 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection4')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.38s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection4" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Sibelle, lastName: Abbotson, totalPrice: 0, depositPaid: false, checkIn: 1/21/2022, checkOut: 12/9/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.38s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-15">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-15" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Sibelle&quot;,<br>    &quot;lastname&quot;: &quot;Abbotson&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;1/21/2022&quot;,<br>        &quot;checkout&quot;: &quot;12/9/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 198<br>Etag: W/&quot;c6-n069GPfTMnZkZmZCupmzVaiQnAQ&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 130,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Sibelle&quot;,<br>        &quot;lastname&quot;: &quot;Abbotson&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-01-21&quot;,<br>            &quot;checkout&quot;: &quot;2022-12-09&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="5"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection5 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection5')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.38s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection5" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Thomas, lastName: Dwelley, totalPrice: 0, depositPaid: false, checkIn: 4/11/2022, checkOut: 4/12/2022 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.38s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-18">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-18" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Thomas&quot;,<br>    &quot;lastname&quot;: &quot;Dwelley&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;4/11/2022&quot;,<br>        &quot;checkout&quot;: &quot;4/12/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 197<br>Etag: W/&quot;c5-GDjWdsl6ZkQf/o7gP1yLxBJLpLw&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 120,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Thomas&quot;,<br>        &quot;lastname&quot;: &quot;Dwelley&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-04-11&quot;,<br>            &quot;checkout&quot;: &quot;2022-04-12&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="6"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection6')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection6 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection6')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.41s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection6" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Cazzie, lastName: Frudd, totalPrice: 0, depositPaid: false, checkIn: 11/8/2022, checkOut: 12/19/2022 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.41s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-21">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-21" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Cazzie&quot;,<br>    &quot;lastname&quot;: &quot;Frudd&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;11/8/2022&quot;,<br>        &quot;checkout&quot;: &quot;12/19/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 195<br>Etag: W/&quot;c3-8jB6J8RCEwC2+PDA0TV2tCdlAj8&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 125,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Cazzie&quot;,<br>        &quot;lastname&quot;: &quot;Frudd&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-11-08&quot;,<br>            &quot;checkout&quot;: &quot;2022-12-19&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="7"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection7')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection7 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection7')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.34s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection7" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Riccardo, lastName: Jeggo, totalPrice: 0, depositPaid: false, checkIn: 1/24/2022, checkOut: 10/22/2022 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.34s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-24">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-24" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Riccardo&quot;,<br>    &quot;lastname&quot;: &quot;Jeggo&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;1/24/2022&quot;,<br>        &quot;checkout&quot;: &quot;10/22/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 197<br>Etag: W/&quot;c5-TKIxyb02r3Y6Nv1adunIDnj6xzQ&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 121,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Riccardo&quot;,<br>        &quot;lastname&quot;: &quot;Jeggo&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-01-24&quot;,<br>            &quot;checkout&quot;: &quot;2022-10-22&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="8"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection8')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection8 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection8')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.37s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection8" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Lorelei, lastName: Dudmesh, totalPrice: 0, depositPaid: false, checkIn: 6/23/2022, checkOut: 8/18/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.37s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-27">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-27" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Lorelei&quot;,<br>    &quot;lastname&quot;: &quot;Dudmesh&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;6/23/2022&quot;,<br>        &quot;checkout&quot;: &quot;8/18/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 197<br>Etag: W/&quot;c5-ffkjF1ecRXQL3iNqEdVa+6n+K5k&quot;<br>Date: Wed, 11 Jan 2023 20:40:54 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 117,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Lorelei&quot;,<br>        &quot;lastname&quot;: &quot;Dudmesh&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-06-23&quot;,<br>            &quot;checkout&quot;: &quot;2022-08-18&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="9"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection9')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection9 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection9')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.39s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection9" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Salim, lastName: Lissaman, totalPrice: 0, depositPaid: false, checkIn: 9/13/2022, checkOut: 1/10/2023 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.39s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-30">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-30" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Salim&quot;,<br>    &quot;lastname&quot;: &quot;Lissaman&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;9/13/2022&quot;,<br>        &quot;checkout&quot;: &quot;1/10/2023&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 197<br>Etag: W/&quot;c5-OADNke6ePp3xs81KPcAVKco67xI&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 133,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Salim&quot;,<br>        &quot;lastname&quot;: &quot;Lissaman&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-09-13&quot;,<br>            &quot;checkout&quot;: &quot;2023-01-10&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="10"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection10')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection10 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection10')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.41s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection10" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Otho, lastName: Hewes, totalPrice: 0, depositPaid: false, checkIn: 6/28/2022, checkOut: 10/6/2022 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.41s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-33">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-33" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Otho&quot;,<br>    &quot;lastname&quot;: &quot;Hewes&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;6/28/2022&quot;,<br>        &quot;checkout&quot;: &quot;10/6/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 193<br>Etag: W/&quot;c1-KV7QldGh0SGh67fRzRwRwE2LWAo&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 131,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Otho&quot;,<br>        &quot;lastname&quot;: &quot;Hewes&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-06-28&quot;,<br>            &quot;checkout&quot;: &quot;2022-10-06&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="11"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection11')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection11 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection11')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.38s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection11" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Miner, lastName: Acutt, totalPrice: 0, depositPaid: false, checkIn: 8/31/2022, checkOut: 6/4/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.38s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-36">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-36" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Miner&quot;,<br>    &quot;lastname&quot;: &quot;Acutt&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;8/31/2022&quot;,<br>        &quot;checkout&quot;: &quot;6/4/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 193<br>Etag: W/&quot;c1-t+6FgjP4Nkzvr1ZYrJAx0rZGAKc&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 129,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Miner&quot;,<br>        &quot;lastname&quot;: &quot;Acutt&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-08-31&quot;,<br>            &quot;checkout&quot;: &quot;2022-06-04&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="12"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection12')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection12 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection12')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.35s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection12" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Jaquelyn, lastName: Gambrell, totalPrice: 0, depositPaid: false, checkIn: 4/26/2022, checkOut: 9/1/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.35s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-39">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-39" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Jaquelyn&quot;,<br>    &quot;lastname&quot;: &quot;Gambrell&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;4/26/2022&quot;,<br>        &quot;checkout&quot;: &quot;9/1/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 199<br>Etag: W/&quot;c7-OkdcV+vlqUJNKfeHVYirKzv1LyM&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 119,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Jaquelyn&quot;,<br>        &quot;lastname&quot;: &quot;Gambrell&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-04-26&quot;,<br>            &quot;checkout&quot;: &quot;2022-09-01&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="13"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection13')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection13 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection13')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.37s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection13" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Alonso, lastName: Bunny, totalPrice: 0, depositPaid: false, checkIn: 10/21/2022, checkOut: 4/27/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.37s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-42">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-42" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Alonso&quot;,<br>    &quot;lastname&quot;: &quot;Bunny&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;10/21/2022&quot;,<br>        &quot;checkout&quot;: &quot;4/27/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 194<br>Etag: W/&quot;c2-aC8B5kev2Y12ftGAC1y/67fa84E&quot;<br>Date: Wed, 11 Jan 2023 20:40:54 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 116,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Alonso&quot;,<br>        &quot;lastname&quot;: &quot;Bunny&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-10-21&quot;,<br>            &quot;checkout&quot;: &quot;2022-04-27&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="14"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection14')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection14 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection14')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.38s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection14" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Byrle, lastName: Driffill, totalPrice: 0, depositPaid: false, checkIn: 8/24/2022, checkOut: 6/7/2022 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.38s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-45">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-45" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Byrle&quot;,<br>    &quot;lastname&quot;: &quot;Driffill&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;8/24/2022&quot;,<br>        &quot;checkout&quot;: &quot;6/7/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 197<br>Etag: W/&quot;c5-e9oGm+XHRLs8TL7B77EdxYYRLYA&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 118,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Byrle&quot;,<br>        &quot;lastname&quot;: &quot;Driffill&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-08-24&quot;,<br>            &quot;checkout&quot;: &quot;2022-06-07&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="15"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection15')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection15 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection15')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.58s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection15" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Carly, lastName: Tear, totalPrice: 0, depositPaid: false, checkIn: 5/13/2022, checkOut: 7/3/2022 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.58s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-48">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-48" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Carly&quot;,<br>    &quot;lastname&quot;: &quot;Tear&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;5/13/2022&quot;,<br>        &quot;checkout&quot;: &quot;7/3/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 193<br>Etag: W/&quot;c1-rdUJ+YiwwhusgdpPLxSYFnTe8Is&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 123,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Carly&quot;,<br>        &quot;lastname&quot;: &quot;Tear&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-05-13&quot;,<br>            &quot;checkout&quot;: &quot;2022-07-03&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="16"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection16')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection16 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection16')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.4s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection16" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Pavel, lastName: Yannikov, totalPrice: 0, depositPaid: false, checkIn: 9/1/2022, checkOut: 3/21/2022 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.4s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-51">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-51" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Pavel&quot;,<br>    &quot;lastname&quot;: &quot;Yannikov&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;9/1/2022&quot;,<br>        &quot;checkout&quot;: &quot;3/21/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 197<br>Etag: W/&quot;c5-8ZpFnQtuouRIZOztSt3vwT2HDgQ&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 132,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Pavel&quot;,<br>        &quot;lastname&quot;: &quot;Yannikov&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-09-01&quot;,<br>            &quot;checkout&quot;: &quot;2022-03-21&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="17"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection17')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection17 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection17')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.42s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection17" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Heywood, lastName: Archard, totalPrice: 0, depositPaid: false, checkIn: 1/18/2022, checkOut: 11/17/2022 and additionalNeeds: burger</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.42s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-54">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-54" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Heywood&quot;,<br>    &quot;lastname&quot;: &quot;Archard&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;1/18/2022&quot;,<br>        &quot;checkout&quot;: &quot;11/17/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;burger&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 198<br>Etag: W/&quot;c6-18LuUhXbmG/Ee2prP44hkBrCoE8&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 126,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Heywood&quot;,<br>        &quot;lastname&quot;: &quot;Archard&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-01-18&quot;,<br>            &quot;checkout&quot;: &quot;2022-11-17&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;burger&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="18"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection18')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection18 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection18')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.38s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection18" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Augusto, lastName: Knappen, totalPrice: 0, depositPaid: false, checkIn: 5/22/2022, checkOut: 8/2/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.38s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-57">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-57" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Augusto&quot;,<br>    &quot;lastname&quot;: &quot;Knappen&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;5/22/2022&quot;,<br>        &quot;checkout&quot;: &quot;8/2/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 197<br>Etag: W/&quot;c5-R26X75k5me0Vd/R/Sf+yzjjBa1Q&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 122,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Augusto&quot;,<br>        &quot;lastname&quot;: &quot;Knappen&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-05-22&quot;,<br>            &quot;checkout&quot;: &quot;2022-08-02&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        <a name="19"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection19')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection19 success-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection19')"
+                               style="display:block;">
+                            <span class="top-level-step">Data driven test for adding multiple booking to the application </span>
+                            </a>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
+                    <td width="100"><span class="top-level-step">8.38s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection19" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">Creating new booking with firstName: Dalenna, lastName: Kersting, totalPrice: 0, depositPaid: false, checkIn: 10/6/2022, checkOut: 9/9/2022 and additionalNeeds: pizza</span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">8.38s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">POST https://restful-booker.herokuapp.com/booking</span>
+
+                                <span class="rest-query">
+                <span>
+                    <button type="button" class="btn btn-success btn-sm" data-toggle="modal"
+                            data-target="#restModal-60">
+                        REST Query
+                    </button>
+                </span>
+                <!-- Modal -->
+                <div class="modal fade" id="restModal-60" tabindex="-1" role="dialog"
+                     aria-labelledby="restModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal"
+                                        aria-label="Close"><span aria-hidden="true">&times;</span>
+                                </button>
+                                <h4 class="modal-title" id="restModalLabel">
+                                POST https://restful-booker.herokuapp.com/booking
+                                </h4>
+                            </div>
+                            <div class="modal-body">
+                                    <p>Status code: 200</p>
+                                    <p>Content Type: application/json</p>
+                                    <h5>Request Headers</h5>
+                                    <pre>Accept=*/*<br>Content-Type=application/json; charset=UTF-8</pre>
+                                    <h5>Content Body</h5>
+                                    <pre>{<br>    &quot;firstname&quot;: &quot;Dalenna&quot;,<br>    &quot;lastname&quot;: &quot;Kersting&quot;,<br>    &quot;totalprice&quot;: 0,<br>    &quot;depositpaid&quot;: false,<br>    &quot;bookingdates&quot;: {<br>        &quot;checkin&quot;: &quot;10/6/2022&quot;,<br>        &quot;checkout&quot;: &quot;9/9/2022&quot;<br>    },<br>    &quot;additionalneeds&quot;: &quot;pizza&quot;<br>}</pre>
+                                    <h5>Request Cookies</h5>
+                                    <pre></pre>
+                                    <h5>Response Headers</h5>
+                                    <pre>Server: Cowboy<br>Connection: keep-alive<br>X-Powered-By: Express<br>Content-Type: application/json; charset=utf-8<br>Content-Length: 198<br>Etag: W/&quot;c6-rPsZ7y+pjkrA7XfdCPPA6gNkN3E&quot;<br>Date: Wed, 11 Jan 2023 20:40:55 GMT<br>Via: 1.1 vegur</pre>
+                                <h5>Response Body</h5>
+                                    <pre>
+                                        {<br>    &quot;bookingid&quot;: 127,<br>    &quot;booking&quot;: {<br>        &quot;firstname&quot;: &quot;Dalenna&quot;,<br>        &quot;lastname&quot;: &quot;Kersting&quot;,<br>        &quot;totalprice&quot;: 0,<br>        &quot;depositpaid&quot;: false,<br>        &quot;bookingdates&quot;: {<br>            &quot;checkin&quot;: &quot;2022-10-06&quot;,<br>            &quot;checkout&quot;: &quot;2022-09-09&quot;<br>        },<br>        &quot;additionalneeds&quot;: &quot;pizza&quot;<br>    }<br>}
+                                    </pre>
+                                    <h5>Response Cookies</h5>
+                                    <pre></pre>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">
+                                    Close
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                </span>
+
+                        </div>
+                    </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-SUCCESS">
+                    <td colspan="2"></td>
+                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>167.92s</em></span></td>
+                </tr>
+
+            </table>
+        </div>
+    </div>
+    <div id="beforefooter"></div>
+    <div id="bottomfooter">
+        <span class="version">Serenity BDD version 1.5.1</span>
+    </div>
+
+
+    <script type="text/javascript">
+        function toggleDiv(divId) {
+            $("#" + divId).toggle();
+            var imgsrc = $(".img" + divId).attr('src');
+            if (imgsrc == 'images/plus.png') {
+                $(".img" + divId).attr("src", function () {
+                    return "images/minus.png";
+                });
+
+            }
+            else {
+                $(".img" + divId).attr("src", function () {
+                    return "images/plus.png";
+                });
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        $('.example-table table').DataTable({
+            "order": [[0, "asc"]],
+            "pageLength": 25,
+            "scrollX": "100%",
+            "scrollXInner": "100%",
+            "scrollCollapse": true
+        });
+    </script>
+
+    <script type="text/javascript">
+        //<![CDATA[
+
+        $(document).ready(function () {
+            $('img.screenshot').imgPreview({
+                imgCSS: {
+                    width: '500px'
+                },
+                distanceFromCursor: {top: 10, left: -200}
+            });
+        });
+
+        //]]>
+    </script>
+    <div id="imgPreviewContainer" style="position: absolute; top: 612px; left: 355px; display: none; " class=""><img
+            src="" style="display: none; "></div>
+    <div id="imgPreviewContainer2" style="position: absolute; top: 925px; left: 320px; display: none; " class="">
+        <img style="width: 200px; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles" style="position: absolute; top: 1272px; left: 321px; display: none; " class="">
+        <img style="height: 200px; opacity: 1; display: none; " src=""></div>
+    <div id="imgPreviewWithStyles2" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+    <div id="imgPreviewWithStyles3" style="display: none; position: absolute; "><img style="height: 200px; "></div>
+
+</body>
+</html>
